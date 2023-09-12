@@ -1,0 +1,42 @@
+*DEVTOOLS:*
+let objeto = {
+    "a" : "ameixa",
+    "b" : "banana",
+    "c" : "cacau"
+}
+undefined
+objeto["a"]
+'ameixa'
+objeto.a
+'ameixa'
+objeto.b
+'banana'
+objeto.c
+'cacau'
+let pessoa = {
+    "a" : "Bia",
+    "b" : "17"
+}
+undefined
+pessoa.a
+'Bia'
+pessoa.b
+'17'
+let filme ={}
+undefined
+let filme = {
+    "nome" : "xxxxx",
+    "diretor" : {
+        "nome" : "fulano",
+        "idade" : 45
+    }
+}
+undefined
+filme
+{nome: 'xxxxx', diretor: {…}}
+filme.diretor.nome
+'fulano'
+filme.nome
+'xxxxx'
+filme.diretor.idade
+45
